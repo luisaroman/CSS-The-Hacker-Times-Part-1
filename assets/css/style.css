@@ -16,10 +16,15 @@ h1 {
   border: 3px solid gray;
 }
 
-.nav ul {
-  display: inline-block;
-  padding: 20px;
+ul {
+  list-style-type: none;
+  padding: 40px;
   margin: 0; 
+  text-align: center;
+}
+
+li {
+  display: inline-block;
 }
 
 main {
@@ -53,7 +58,7 @@ p {
 .first-article{
     width: 700px;
     border-radius:8px;
-    border:5px solid gray;
+    border:3px solid gray;
     box-shadow: 0cm gray;
     padding:20px;
     text-align: center;
